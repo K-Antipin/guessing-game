@@ -148,7 +148,7 @@ function divine (question, answerNumber) {
             answerPhrase = `Наверное, это число <b>${numberAsText(answerNumber)}</b>\n\u{1F914}`;
             break;
         case 3:
-            answerPhrase = `Все просто! Это чилсо <b>${numberAsText(answerNumber)}</b>\n\u{1F917}`;
+            answerPhrase = `Все просто! Это число <b>${numberAsText(answerNumber)}</b>\n\u{1F917}`;
             break;
         default:
             break;
