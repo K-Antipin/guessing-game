@@ -126,7 +126,7 @@ function inputValue() {
             minValue = 0;
             maxValue = 999;
         }
-        h2.innerText = `Вы веели числа ${minValue} и ${maxValue}!`;
+        h2.innerText = `Вы ввели числа ${minValue} и ${maxValue}!`;
         inputNumber++;
     } else if (inputNumber === 3) {
         document.querySelector('.blur').remove();
